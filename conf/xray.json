@@ -51,26 +51,6 @@
           "path": "/$AUUID-trojan"
         }
       }
-    },
-    {
-      "port": 5234,
-      "listen": "127.0.0.1",
-      "protocol": "socks",
-      "settings": {
-        "auth": "password",
-        "accounts": [
-          {
-            "user": "$AUUID",
-            "pass": "$AUUID"
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "wsSettings": {
-          "path": "/$AUUID-socks"
-        }
-      }
     }
   ],
   "outbounds": [
