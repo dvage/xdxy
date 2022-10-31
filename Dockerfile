@@ -6,6 +6,8 @@ RUN apk update && \
     chmod +x /xray && \
     rm -rf /var/cache/apk/*
 
+COPY conf/ /conf/
+
 ADD entrypoint.sh /entrypoint.sh
 RUN chmod +x /entrypoint.sh
 
