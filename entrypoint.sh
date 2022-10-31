@@ -4,7 +4,7 @@
 AUUID="86c0d574-7558-41d0-9deb-55199f876e73"
 CADDYIndexPage="https://raw.githubusercontent.com/caddyserver/dist/master/welcome/index.html"
 ParameterSSENCYPT="chacha20-ietf-poly1305"
-PORT=8888
+PORT=$PORT
 
 # configs
 mkdir -p /etc/caddy/ /usr/share/caddy && echo -e "User-agent: *\nDisallow: /" >/usr/share/caddy/robots.txt
